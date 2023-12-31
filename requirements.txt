@@ -35,7 +35,7 @@ rsa==4.8
 six==1.16.0
 tensorboard==2.8.0
 Python==3.10.9
-!pip ==23.3.2
+pip==23.3.2
 tensorboard-data-server==0.6.1
 tensorboard-plugin-wit==1.8.1
 tensorflow>=2.8.0,<3.0.0
