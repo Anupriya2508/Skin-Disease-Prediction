@@ -5,6 +5,7 @@
 - [Overview](#overview)
 - [Dataset](#dataset)
 - [Model Architecture](#model-architecture)
+- [Screenshots](#screenshots)
 - [Usage](#usage)
 - [Results](#results)
 - [Contribution Guidelines](#contribution-guidelines)
