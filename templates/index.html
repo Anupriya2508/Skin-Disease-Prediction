@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="eng">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href={{url_for('static' , filename = 'css/normalize.css')}}>
+        <link rel="stylesheet" href={{url_for('static' , filename = 'css/grid.css')}}>
+        <link rel='stylesheet' href={{url_for('static' , filename = 'css/style.css')}}>
+        
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+         
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+        <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,300&display=swap" rel="stylesheet" type='text/css'>
+        
+        <script  src="static/index.js"></script>
+        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+
+        <link href="../static/images/favicon.ico" rel="icon" type="image/x-icon">
+
+        <title>Dermatological Diagnosis System</title>
+        <meta name="keywords" content="cutom file input, styling, label, cross-browser, accessible, input type file" />
+
+		<style>
+			.content {
+			  max-width: 500px;
+			  margin: auto;
+			  }
+			.bg-img{
+				width: 100%;
+				height: 100vh;
+				background-image:linear-gradient(rgba(0, 0, 0, 0.71),rgba(0, 0, 0, 0.7)),url('static/css/front.jpg');
+				background-size: cover;
+				background-position: center;
+			}
+            /* .social-icons
+            {
+                color: #52c0c0;
+                transition: color 0.2s;
+                font-size:xx-large;
+                text-decoration: none;
+                margin: 0 50px;
+                margin-left: 40px;
+            }      
+            .footer{
+                margin: 80px;
+            }
+            .social-icons:hover
+            {
+                color: rgb(172, 242, 247);
+                
+                font-size:xx-large;
+                text-decoration: none;
+            } */
+            .heading{
+                font-family:'Segoe UI, Tahoma, Geneva, Verdana, sans-serif';
+                color: rgb(3, 9, 15);
+                font-size: 30px;
+                display: flex;
+                align-self: center;
+                margin-left:50px;
+            }
+            .upload{
+                background:#92ccc4;
+                border:none;
+                padding:10px;
+                color: black;
+            }
+		</style>
+    </head>
+    <body>
+		<div id="pagewrap" data-nav="home">   
+            <header id="header">
+                
+                <div id="header-center">
+                     <!-- <a id="site-logo" href="index.html" title="Home"></a>  -->
+                    <nav>
+                        <ul id="main-nav">
+                            <p class="heading">Dermatological Diagnosis System</p>
+                            <!-- <li><a href="{{ url_for('about') }}" class="nav">About</a></li> -->
+                             <!-- <li><a href="#how" class="nav">WORK</a></li> -->
+                            <!-- <li><a href="#news" class="nav">RESOURCES</a> </li> -->
+                            <!-- <li><a href="{{ url_for('contact') }}"  class="nav">Contact Us</a></li> -->
+                        </ul>
+                        <!-- /#main-nav --> 
+                    </nav>
+                </div>
+            </header>
+        </div>
+
+	<div class="bg-img">
+	<div class="content">
+        <div class = "index-main">
+        <div style = "width : 100%; padding-top : 5%;">
+            <div class = "header-content">
+                 <h1 style = "text-align: center;color: white"><span class="header-content-text">Determine the Skin Disease</span></h1>
+            </div>
+        </div>
+
+        <div class="upload-section">
+
+            <div class="upload-file">
+                <form class = "file-form" action="/success" method="post" enctype="multipart/form-data">
+                    <input class="file-form-input" type="file"  name = "file"/>
+                    <button class="btn btn-lg upload">Upload</button> 
+                </form>
+            </div>
+
+            <div class = "header-content-sub">
+                    <p style = "text-align: center; margin-top: 15px;color: red" class="header-content-info">{{error}}</p>
+            </div>
+            <div class = "header-content-sub">
+                <p style = "text-align: center;color: white" class="header-content-info">Upload the image of the skin which is affected.</p> 
+            </div>
+
+        </div>
+        <!-- <div class = "footer">
+        
+             <a class="social-icons" href="www.linkedin.com/in/anupriya-jayaraj">
+                <ion-icon name="logo-linkedin"></ion-icon>
+             </a>
+             <a class="social-icons" href="https://github.com/Anupriya2508">
+                <ion-icon name="logo-github"></ion-icon>
+             </a>
+
+            <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+            <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+            
+        </div> -->
+	    </div>  
+	</div>			 
+	</div>
+
+
+    </body>
+</html>
