@@ -5,11 +5,10 @@
 - [Overview](#overview)
 - [Dataset](#dataset)
 - [Model Architecture](#model-architecture)
+- [Screenshots](#screenshots)
 - [Usage](#usage)
 - [Results](#results)
 - [Contribution Guidelines](#contribution-guidelines)
-- [License](#license)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -22,6 +21,16 @@ The dataset used for training and evaluation is the HAM10000 dataset, which cons
 ## Model Architecture
 
 The model is built using an improved Mobile-Net architecture, optimized for dermatological image classification. The architecture has been fine-tuned to achieve better accuracy and performance in predicting multiclass skin diseases.
+
+## Screenshots
+![Screenshot (1092)](https://github.com/Anupriya2508/Skin-Disease-Prediction/assets/89139657/de737bc6-dae5-4a62-b47d-b021e14d202d)
+
+![Screenshot (1093)](https://github.com/Anupriya2508/Skin-Disease-Prediction/assets/89139657/8d4fd3df-c0f4-494b-bbe1-80fd13105db9)
+
+![Screenshot (1094)](https://github.com/Anupriya2508/Skin-Disease-Prediction/assets/89139657/de8a78cc-960b-4cb7-8eef-a2e87fa0bd2b)
+
+![Screenshot (1095)](https://github.com/Anupriya2508/Skin-Disease-Prediction/assets/89139657/9fb17a2a-68dd-4092-9122-06fdf2702b4e)
+
 
 ## Usage
 
