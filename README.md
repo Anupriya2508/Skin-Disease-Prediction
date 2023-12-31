@@ -28,8 +28,8 @@ The model is built using an improved Mobile-Net architecture, optimized for derm
 1. **Clone the Repository:**
 
     ```bash
-    git clone https://github.com/your-username/dermatological-diagnosis.git
-    cd dermatological-diagnosis
+    git clone https://github.com/Anupriya2508/Skin-Disease-Prediction
+    cd Skin-Disease-Prediction
     ```
 
 2. **Install Dependencies:**
